@@ -1,17 +1,101 @@
-<!DOCTYPE html>
-<html lang="">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="./favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEVTOOL | 개발자 도구 모음</title>
-    <meta name="description" content="시간 변환, JWT 분석, 정규식 테스트 등 개발에 필요한 도구를 한 곳에서 제공합니다.">
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
-  <script type="module" crossorigin src="./assets/index.20260119215827.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index.20260119215827.css">
-</head>
-<body>
-<div id="app"></div>
-</body>
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="GoLab 앱개발용 사이트">
+    <title>GoLab</title>
+    <style>
+      body {
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+        max-width: 640px;
+        margin: 0 auto;
+        padding: 80px 24px;
+        background:
+          radial-gradient(circle at top left, #eef5f1 0, transparent 260px),
+          #f7f6f2;
+        font-family: system-ui, -apple-system, "Noto Sans KR", sans-serif;
+        line-height: 1.7;
+        color: #222;
+      }
+
+      main {
+        width: 100%;
+        padding: 42px;
+        border: 1px solid #e4ded2;
+        border-radius: 18px;
+        background: #fff;
+        box-shadow: 0 18px 45px rgba(31, 41, 51, 0.08);
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: 38px;
+        line-height: 1.15;
+        letter-spacing: 0;
+      }
+
+      p {
+        margin: 0;
+        color: #555;
+        font-size: 17px;
+      }
+
+      ul {
+        display: grid;
+        gap: 10px;
+        margin: 34px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      li {
+        position: relative;
+        padding: 12px 14px 12px 36px;
+        border: 1px solid #edf0ed;
+        border-radius: 10px;
+        background: #fbfbfa;
+      }
+
+      li::before {
+        content: "";
+        position: absolute;
+        top: 21px;
+        left: 16px;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: #2d6a4f;
+      }
+
+      @media (max-width: 520px) {
+        body {
+          padding: 40px 18px;
+        }
+
+        main {
+          padding: 28px;
+          border-radius: 14px;
+        }
+
+        h1 {
+          font-size: 32px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>GoLab</h1>
+      <p>앱개발용 사이트입니다.</p>
+
+      <ul>
+        <li>서버개발자</li>
+        <li>취미용 앱 개발</li>
+        <li>간단한 웹페이지 제작</li>
+      </ul>
+    </main>
+  </body>
 </html>
